@@ -1,0 +1,95 @@
+/*THIS CONTAINER CAN BE USED TO CONSTRAIN THE PARALLAX EFFECT TO A SMALLER WINDOW*/
+/*
+#controlContainer{
+	height: 300px;
+	overflow:auto;
+    padding: 1em 2em 1em 2em;
+    margin: 1em;
+}
+*/
+
+body {
+	margin: 0;
+	text-align: center;
+    background-image: url(../images/diamondShortcake.gif);
+	background-repeat: repeat;
+}
+
+}
+/*##### Text area */
+
+.text{
+ 
+	max-width:960px;
+	margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 40px;
+  font-size: 1.8em;
+}
+.section p {
+  margin-bottom: 40px;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+/*#### The headings */
+
+
+.parallax h1 {
+  color:#fff;
+  opacity: 0.8;
+  font-size: 6em;
+  padding-top: 180px;
+  text-align: center;
+}
+
+
+/*##### The images */
+
+
+.parallax-1 {
+  background-image: url("../images/pexels.png");
+}
+.parallax-2 {
+  background-image: url("../images/blueberry.png");
+}
+.parallax-3 {
+  background-image: url("../images/jaffa.png");
+}
+
+.parallax {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+/*##### media queries*/
+
+
+@media all and (min-width: 600px) {
+  .section h2 {
+    font-size: 2.6em;
+  }
+  .section p {
+    font-size: 1.3em;
+  }
+  .section h1 {
+    font-size: 6em;
+  }
+}
+@media all and (min-width: 960px) {
+  .section h1 {
+    font-size: 10em;
+	  
+  }
+	.text {
+		  max-width: 960px;
+		  margin:0 auto;
+	  }
+}

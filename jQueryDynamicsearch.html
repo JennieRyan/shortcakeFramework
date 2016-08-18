@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dynamic Search Plug In</title>
+
+   
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+<!-- call jquery-->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,400italic,700italic,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet' type='text/css'>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/framework.css">
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!--link to dynamic search css-->
+<link rel="stylesheet" href="css/search.css">
+
+
+<script>
+	$(function(){
+		$("#keyWord").filterSearch();
+	})
+	
+	</script>
+	
+
+</head>
+<body class="lightpink">
+
+<h5 class="hero-heading white_text strawberry">Find The Closest Location To You</h5>
+
+<input type="text" id="keyWord" placeholder="Search for your city.." title="Type in a name">
+
+<ul id="myUl">
+  <li><a href="#">Carlsbad</a></li>
+  <li><a href="#">Chula Vista</a></li>
+  <li><a href="#">Del Mar</a></li>
+  <li><a href="#">El Cajon</a></li>
+  <li><a href="#">Encinitas</a></li>
+  <li><a href="#">Imperial Beach</a></li>
+  <li><a href="#">La Mesa</a></li>
+  <li><a href="#">Poway</a></li>
+  <li><a href="#">San Diego</a></li>
+  <li><a href="#">Solana Beach</a></li>
+</ul>
+<!--link to dynamic search js-->
+<script src="js/search.js"></script>
+
+</body>
+</html>
+

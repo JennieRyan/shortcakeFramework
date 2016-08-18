@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Css Masked Header</title>
+    
+<!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,400italic,700italic,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+<!-- link to masked header css-->
+<link href="css/maskedHeader.css" type="text/css" rel="stylesheet">
+
+    
+</head>
+<body>
+ 
+      <!-- You will need to adjust the x and y coordinates inside the text tag as well as svgClipped id element position and customHdMask id element position. These three rules have to be aligned for css component to function properly-->
+      
+          <div id="customHdMask">
+              <img src="images/dessert-1491101_1920.jpg" id="svgClipped" alt="pic" />
+              
+              <svg height="100%" width="100%">
+                  <defs>
+                  <!-- Change position of text with x and y in text tag and change text within text tag-->
+                <clipPath id="svgTextPath">
+                    <text x="7%" y="400"  textLength="900px" lengthAdjust="spacing" font-family='Sail', cursive; font-size="1450%" font-weight="500" font-style="italic" id="shortText" >ShortCake</text>
+                    <!-- Change the word above and also font style as desired-->
+
+                </clipPath>
+                  </defs>
+              </svg>
+          </div>
+      
+      
+      
+       
+</body>
+</html>

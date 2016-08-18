@@ -1,0 +1,43 @@
+body {
+    background: #EAC2D9;
+    background-image: url(../images/diamondShortcake.gif);
+	background-repeat: repeat;
+}
+
+img {
+    width:100%;
+    position: relative;
+    top: -900px;
+    
+}
+svg {
+    position: relative;
+    top: -320px;
+}
+#svgTextPath {
+    width: 90%;
+    position: relative;
+}
+#svgClipped {
+    clip-path: url(#svgTextPath);
+    -webkit-clip-path: url(#svgTextPath);
+    position: relative;
+    top: 1px;
+    /* Adjust clip window position to make img move behind mask. make sure that both text position(x and y) and svgClipped position align to make the text appear and function properly.*/
+}
+#customHdMask {
+    background-color: #A81336;
+    height:260px;
+    width: 1020px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    box-shadow: 5px 5px 40px black;
+    position: relative;
+    left: 2%;
+    top: 220px;
+    /* Change position of #A81336 background of text mask. Again you must alight this element with the other two to make css component function properly*/
+    
+}
+

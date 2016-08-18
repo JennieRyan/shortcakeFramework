@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LIGHT BOX</title>
+<!-- call jquery-->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,400italic,700italic,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet' type='text/css'>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/framework.css">
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+    
+<!--    lightbox css-->
+<link rel="stylesheet" href="css/lightBox.css">
+   
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+<script>
+	$(function(){
+		$(".allImages").lightBox();
+	})
+	
+</script>    
+     
+      
+</head>
+
+<body>
+	
+	<div id="container">
+	<h1  class="hero-heading white_text strawberry">Shortcake Light Box</h1>
+
+	<div class="allImages">
+		<img src="images/1.png" alt="img1">
+		<img src="images/2.png" alt="img1">
+		<img src="images/3.png" alt="img1">
+		<img src="images/4.png" alt="img1">
+		<img src="images/5.png" alt="img1">
+		<img src="images/6.png" alt="img1">
+		<img src="images/7.png" alt="img1">
+		<img src="images/8.png" alt="img1">
+		
+	</div>
+	
+	<div id="myBox" class="box">
+	  <span class="close">×</span>
+	  <img class="zoom">
+	  <div id="caption"></div>
+	</div>
+	
+	<script src="js/lightBox.js"></script>
+	</div>
+</body>
+</html>

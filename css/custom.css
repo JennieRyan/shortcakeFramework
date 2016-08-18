@@ -1,0 +1,95 @@
+/* Custom.css file for individual page styling */
+
+.container {
+  max-width: 960px; }
+
+.hero {
+    border-radius: 2px;
+}
+
+.custom-section {
+  border-top:#286624 1px solid;
+line-height: 2.8rem;
+  padding: 4rem 4rem;
+  margin-bottom: 5px;}
+
+.custom-header {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 2.4rem;
+  margin-bottom: 1rem;
+    padding: 4rem 2rem;
+  font-size: 3.7rem;
+  letter-spacing: .25rem;
+  font-weight: 700; }
+
+.custom-example h1,
+.custom-example h2,
+.custom-example h3,
+.custom-example h4,
+.custom-example h5,
+.custom-example h6 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+  color: #222;
+    font-size: 3.4rem;
+  margin-bottom: 1rem; }
+ 
+.heading-font-size {
+  font-size: 1.2rem;
+  color: #999;
+  letter-spacing: normal; }
+
+.custom-example .row,
+.custom-example.row,
+.custom-example form {
+  margin-bottom: 0;
+padding: 3rem;}
+
+
+/*GRID*/
+.example-grid .column,
+.example-grid .columns {
+  text-align: center;
+  border-radius: 12px;
+  font-size: 1rem;
+  height: 80px;
+  line-height: 40px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: .2rem; }
+
+
+/* TABLET PORTRAIT */
+@media (min-width: 550px) {
+  .header {
+    margin-top: 18rem; }
+ 
+  .example-grid .column,
+  .example-grid .columns {
+    margin-bottom: 1.5rem; }
+  .custom-section {
+    padding: 3rem 0rem; }
+    
+    .custom-header {
+  margin-bottom: 1rem;
+    padding: 4rem 2rem;
+  font-size: 4.5rem;
+  letter-spacing: .25rem;
+  font-weight: 700; }
+    
+}
+
+
+/* DESKTOP AND UP */
+@media (min-width: 750px) {
+.custom-section {
+    line-height: 6rem;
+    padding: 6rem 0rem;
+ }
+    .custom-header {
+  margin-bottom: 1rem;
+    padding: 4rem 2rem;
+  font-size: 5.5rem;
+  letter-spacing: .25rem;
+  font-weight: 700; }
+    
+}

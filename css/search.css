@@ -1,0 +1,57 @@
+
+h5{
+	text-align: center
+}
+
+a {
+    margin: 0;
+}
+#keyWord {
+  width: 87%;
+  margin-left: 5%;
+  font-size: 1em;
+  padding: 5px;
+  border: 1px solid #BF206A;
+  margin-bottom: 12px;
+}
+
+#myUl {
+  list-style-type: none;
+  padding: 0;
+  max-width: 90%;
+  margin: auto;
+}
+
+#myUl li a {
+  border: 1px solid #BF206A;
+  margin-top: -1px;  /*Prevent double borders*/ 
+  background-color: #B1AFEF;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #BF206A;
+  display: block
+}
+
+#myUl li a:hover{
+  background-color: #BF206A;
+	color: #000;
+}
+
+@media only screen and (min-width: 600px) {
+ #myUl {
+	max-width: 70%;
+	}
+ #keyWord{
+	width: 50%;
+	margin-left: 15% 
+	 }
+}
+@media only screen and (min-width: 960px) {
+ #myUl {
+	max-width: 50%;
+	}
+ #keyWord{
+	width: 30%;
+	margin-left: 25% 
+	 }
+}

@@ -1,0 +1,26 @@
+
+div[title] {
+    font-size: 20px; 
+}
+button {
+    width:80px;
+    height:30px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin-left: 210px;
+    float: right;
+    position: relative;
+    top:-45px;
+    left: 0;
+}
+#ui-id-1 {
+    color: #BF206A;
+    font-family: Helvetica, sans-serif;
+    width:80px;
+    height:30px;
+    text-shadow: 1px 1px 2px;
+}
+
+.cakeImg {
+    padding: 1em;
+}

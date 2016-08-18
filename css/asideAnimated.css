@@ -1,0 +1,93 @@
+/*
+shortcake: #EAC2D9
+strawberry: #A81336
+light#EAC2D9: #F5DFEC
+chocolate: #473021
+magenta: #BF206A
+yellow: #F4E3A2
+purple: #B1AFEF
+darkpurple: #8384CC
+green: #286624
+*/
+body {
+    background-image: url(../images/diamondShortcake.gif);
+	background-repeat: repeat;
+}
+/* Animated Link Aside ---------------------C1*/
+
+/* Closed position */
+
+.asBar {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #A81336;
+    box-shadow: 3px 3px 3px black;
+    padding:10px;
+    width:100px;
+    height: 184px;
+    -webkit-transition: width 2s, -webkit-transform 2s;
+    -moz-transition: width 2s, -moz-transform 2s;
+    -o-transition: width 2s, -o-transform 2s;
+    
+    transition: width 2s, transform 2s;
+    position: relative;
+    top:200px;
+}
+.asList {
+    display: block;
+    opacity: 0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    
+    
+    
+}
+
+/* Open position */
+.asLinks {
+    text-decoration: none;
+    color: #473021;
+    margin-left: 10px;
+    font-size: 18px;
+/*    line-height: 1em;*/
+
+}
+.asLinks:hover {
+    color: #A81336;
+    display: block;
+}
+.asLb {
+    list-style-type: none;
+    
+}
+.asBar:hover {
+    background-color: #A81336;
+    box-shadow: 3px 3px 3px #473021;
+    padding:10px;
+    width:200px;
+    height: 184px;
+}
+C1 {
+    border: solid 2px #473021;
+}
+.withinContainer {
+    background-color: #EAC2D9;
+    width:90%;
+    height:182px;
+    padding: 1px;
+    border-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.asList:hover {
+    display: block;
+    opacity: 1;
+    float: left;
+    
+}
+

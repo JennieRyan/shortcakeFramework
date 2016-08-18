@@ -1,0 +1,66 @@
+/*
+shortcake: #EAC2D9
+strawberry: #A81336
+lightpink: #F5DFEC
+chocolate: #473021
+magenta: #BF206A
+yellow: #F4E3A2
+purple: #B1AFEF
+darkpurple: #8384CC
+green: #286624
+*/
+
+        
+div .closedDiv, div .activeDiv {
+    display: block;
+    border: solid 1px black;
+    color: white;
+    margin-bottom: 0;
+}
+        
+.closedDiv {
+    background-color: #A81336;
+}
+        
+.activeDiv {
+    background-color: #A81336;
+}
+
+.rightArrow, .downArrow {
+    margin-top:-.75em;
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin-left: -1.5em;
+}
+
+.checkered {
+    padding: 2em;
+    background: url(../images/diamondShortcake.gif);
+    border-radius: 10px;
+
+}
+p {
+    margin: 0;
+    padding: 1em;
+    background-color: #EAC2D9;
+    border-radius: 0 0 10px 10px;
+}
+
+h3 {
+        font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: .75em;
+}
+      
+div section:first-child div {
+    border-radius: 10px 10px 0 0;
+}
+        
+div section:last-child div {
+    border-radius: 0 0 10px 10px;
+}
+        
+div section:last-child div.activeDiv {
+    border-radius: 0;
+}
